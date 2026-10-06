@@ -9,3 +9,5 @@
 原作者：basketikun。上游：https://github.com/basketikun/infinite-canvas 。许可证：[MIT](LICENSE)。
 
 此源码快照没有自动发布 npm 包、Docker 镜像或 GitHub Pages 的工作流，安装方法以根目录 README 为准。
+
+前端沿用原项目的 Ant Design 6 与 Pro Components beta 依赖组合。npm 的 peer dependency 范围尚未匹配此组合，因此 web/.npmrc 使用 legacy-peer-deps 保持现有安装方式；npm 锁文件已补齐现有 i18n 依赖。
